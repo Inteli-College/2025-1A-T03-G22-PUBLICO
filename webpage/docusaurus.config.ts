@@ -5,8 +5,8 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-  title: 'Editais',
-  favicon: 'img/firelink.png',
+  title: 'EditAIs',
+  favicon: 'img/eddy_logo.png',
 
   url: 'https://Inteli-College.github.io',
   baseUrl: '/2025-1A-T03-G22-PUBLICO',
@@ -57,17 +57,17 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Template docusaurus',
+      title: 'Editais',
       logo: {
         alt: 'Logo Firelink Lib.',
-        src: 'img/firelink.png',
+        src: 'img/eddy_logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Project',
         },
         {
           href: 'https://github.com/firelink-library/docusaurus-template',

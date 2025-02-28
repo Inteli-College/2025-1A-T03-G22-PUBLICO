@@ -5,4 +5,3 @@ slug: /
 
 # Introdução
 
-Documentação do meu projeto de TCC.
