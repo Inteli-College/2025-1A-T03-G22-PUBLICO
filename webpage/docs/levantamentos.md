@@ -12,10 +12,10 @@ To ensure the project fully meets the client’s needs, critical requirements we
 
 | ID   | Title                                    | Description                                                                                           | Category   |
 |------|-------------------------------------------|-----------------------------------------------------------------------------------------------------|-------------|
-| FR1  | Bid Document Processing and Summarization | The system must process bid documents by reading, analyzing, and summarizing their content to automatically extract technical and functional requirements. | Mandatory |
-| FR2  | Interactive Results Overview & Export   | The system must dynamically generate a concise summary of key bid document insights and display them in a user-friendly prompt. Additionally, it must enable on-demand export of the summarized results as a PDF for offline access. | Mandatory |
-| FR3  | Bid-Compliance Certification Matching| The system must automatically cross-reference bid requirements with the company’s existing certifications to identify and suggest relevant documentation that validates the company’s capability to fulfill the bid’s specific demands. This feature will leverage a vector database to intelligently categorize project types and align them with pre-approved certifications, ensuring contextual relevance.| Desirable   |
-| FR4  | Comprehensive Usage History Archiving | The system must securely store all user requests, feedback, and system-generated compliance matches in a structured, searchable repository. This historical data will be aggregated into a centralized data lake, enabling long-term strategic analytics, trend identification, and operational auditability to support data-driven decision-making. | Desirable |
-| FR5  | Data Lake Analytics Dashboard |The system must include an interactive analytics interface that enables users to explore, filter, and visualize data from the centralized data lake. This dashboard will display user activity metrics, system performance trends, and compliance match insights through dynamic charts, tables, and customizable filters, empowering stakeholders to derive actionable intelligence and monitor long-term operational efficiency. | Desirable |
+| FR1  | Bid Document Processing Performance | The system shall process bid documents (up to 10 MB in size) with an average processing time of ≤5 minutes, measured from upload completion to generation of the final output (technical/financial requirements summary and compliance matching). | Mandatory |
+| FR2  | Scalability | The system must be able to process multiple bid documents simultaneously by distributing the workload. | Mandatory |
+| FR3  | Security | Data must be securely stored, ensuring file encryption and authenticated access via login.| Desirable   |
+| FR4  | Usability | The interface must be intuitive, with a minimal learning curve for sales and pre-sales users. | Desirable |
+| FR5  | Logging | A logging mechanism must be in place to track failures, system usage, and user activities, facilitating audits and troubleshooting. | Desirable |
 
 
