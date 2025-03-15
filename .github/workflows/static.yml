@@ -7,7 +7,6 @@ on:
     paths:
       - 'webpage/**'
 
-# Permissões globais necessárias para repositórios privados
 permissions:
   contents: read
   pages: write
@@ -19,7 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./webpage
+        working-directory: ./webpage  # Mantendo o escopo dentro de `webpage`
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -33,17 +33,19 @@ jobs:
           node-version: 18.x
           cache: 'npm'
 
+      - name: Clean npm cache
+        run: npm cache clean --force
+
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps  # Usa `install` para evitar erro com dependências
 
       - name: Build project
-        run: npm run build
+        run: npm run build  # Sem `--prefix`, pois já estamos na pasta correta
 
       - name: Configure Pages (Private Repo)
         uses: actions/configure-pages@v5
         with:
           enablement: true
-          branch: gh-pages  # Força criação do branch de deploy
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
