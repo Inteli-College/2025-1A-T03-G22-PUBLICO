@@ -1,6 +1,6 @@
 ---
 title: GPT-Mini 4.0 Test
-sidebar_position: 2
+sidebar_position: 5
 slug: /gpt-mini-test
 ---
 
