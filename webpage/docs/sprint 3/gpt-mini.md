@@ -16,6 +16,7 @@ Below is the text used as the basis for testing:
 
 ---
 
+
 ## **Tests Conducted**  
 
 To validate the implementation of the LLM, a test was performed where the fictitious project text was submitted to the model, along with a prompt specifying the aspects to be extracted and summarized. The prompt used was:  
