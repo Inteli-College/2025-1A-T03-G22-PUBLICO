@@ -4,7 +4,6 @@ sidebar_position: 3
 slug: /models-benchmark
 ---
 
-(Due to technical issues, the search service is temporarily unavailable.)
 
 **Large Language Model (LLM) Benchmarks: A Framework for Objective Evaluation**  
 LLM benchmarks are standardized evaluation frameworks designed to measure and compare the performance of language models across tasks such as natural language understanding, reasoning, and domain-specific applications (e.g., technical documentation analysis, compliance checks). As new models emerge rapidly, these benchmarks provide a consistent methodology to assess capabilities, ensuring transparency and enabling stakeholders to identify the most suitable model for their needs.  
