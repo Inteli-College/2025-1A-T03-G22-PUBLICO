@@ -17,7 +17,7 @@ response = requests.post(
     "HTTP-Referer": "<YOUR_SITE_URL>",
     "X-Title": "<YOUR_SITE_NAME>",
   },
- data=json.dumps({
+  data=json.dumps({
     "model": "deepseek/deepseek-chat-v3-0324:free",
     "messages": [
       {
