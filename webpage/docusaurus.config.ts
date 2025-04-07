@@ -9,10 +9,10 @@ const config: Config = {
   favicon: 'img/eddy_logo.png',
 
   url: 'https://Inteli-College.github.io',
-  baseUrl: '/2025-1A-T03-G22-PUBLICO',
+  baseUrl: '/2025-1A-T03-G22-INTERNO',
 
   organizationName: 'Inteli-College',
-  projectName: '2025-1A-T03-G22-PUBLICO',
+  projectName: '2025-1A-T03-G22-INTERNO',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/Inteli-College/2025-1A-T03-G22-PUBLICO/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Inteli-College/2025-1A-T03-G22-INTERNO/tree/main/packages/create-docusaurus/templates/shared/',
           routeBasePath: '/',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex]
@@ -40,7 +40,7 @@ const config: Config = {
             xslt: true,
           },
           editUrl:
-            'https://github.com/Inteli-College/2025-1A-T03-G22-PUBLICO/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Inteli-College/2025-1A-T03-G22-INTERNO/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
