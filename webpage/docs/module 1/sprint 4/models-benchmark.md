@@ -1,6 +1,6 @@
 ---
 title: Models BenchMark
-sidebar_position: 4
+sidebar_position: 5
 slug: /models-benchmark
 ---
 
@@ -24,7 +24,7 @@ LLM benchmarks are standardized evaluation frameworks designed to measure and co
 
 To assess the effectiveness of LLMs in domain-specific tasks, I conducted a controlled experiment comparing two models—**GPT-4.0 mini** (via API) and **DeepSeek: DeepSeek V3 0324**, both highly regarded in the market—for a *requirement extraction* task from a simulated attached bid document. In addition to being the most discussed models currently, they use almost the same number of parameters.  
 
-![Comparison](../../static/img/comparation.jpg)  
+![Comparison](../../../static/img/comparation.jpg)  
 
 ### **Test Setup**  
 
@@ -276,6 +276,3 @@ Total different numbers: 5
 **Conclusion**:
 
 GPT-4.0 mini demonstrated higher precision and adherence to the instructions, while DeepSeek showed difficulties with implicit criteria and compliance with the prompt. Thus, the benchmark was successful in testing the two most mentioned models currently, showing that GPT-4.0 mini achieved a considerably higher accuracy rate during the tests. Finally, it is important to note that the test confirms a suspicion already raised during the project: it will not be possible to move forward without a vector database, which is necessary to achieve higher accuracy rates with the chosen model.
-
-
-
