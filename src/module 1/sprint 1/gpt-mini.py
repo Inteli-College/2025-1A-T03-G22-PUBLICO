@@ -36,4 +36,4 @@ response = requests.post(
   })
 )
 
-print(response.json())  # Para visualizar a resposta da API
+print(response.json())

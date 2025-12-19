@@ -1,0 +1,12 @@
+# Deploy GCP
+## Sprint 19: Presentation Structuring and Solution Demonstration.
+
+Sprint 19 was primarily focused on consolidating the project results through the structuring of the final presentation and the demonstration of the fully functional solution. At this stage, the technical development was considered stable, allowing the team to shift its efforts toward effectively communicating the value, functionality, and business impact of the proposed system.
+
+The activities carried out during this sprint aimed to translate the technical outcomes of the project into a clear and coherent narrative, aligned with both academic evaluation criteria and corporate stakeholders’ expectations. This involved organizing the presentation flow to contextualize the problem, outline the proposed solution, and highlight the achieved results, ensuring that the technical concepts underlying the use of Large Language Models (LLMs), vector databases, and Retrieval-Augmented Generation (RAG) were presented in an accessible and structured manner.
+
+A key component of Sprint 19 was the preparation and execution of a live demonstration of the system. The demonstration showcased the end-to-end operation of the solution, including document upload, information retrieval, requirement extraction, and generation of structured outputs with traceable sources. This practical validation reinforced the technical feasibility of the solution and provided tangible evidence of its applicability to real-world pre-sales scenarios, particularly in the context of public procurement tenders.
+
+Additionally, the sprint emphasized validating the system’s stability and usability during the demonstration process. By simulating realistic user interactions and business use cases, it was possible to confirm that the solution behaved consistently, maintained acceptable response times, and delivered results aligned with the defined functional and non-functional requirements. This step was essential to ensure confidence in the system’s readiness for presentation to both academic evaluators and corporate stakeholders.
+
+In summary, Sprint 19 played a strategic role in bridging the gap between technical implementation and effective communication of results. By focusing on presentation structuring and the demonstration of a fully operational model, this sprint ensured that the project outcomes were clearly articulated, technically validated, and aligned with the original objectives of supporting decision-making and improving efficiency in pre-sales processes.
