@@ -9,11 +9,11 @@ From a business perspective, the project highlights the significant potential im
 
 Even as a Minimum Viable Product (MVP), the solution provides strong evidence of its value as a decision-support tool capable of enhancing competitiveness in the public procurement market.
 
-Qualitative and Strategic Gains
+### Qualitative and Strategic Gains
 
 In addition to quantitative benefits, the project delivered important qualitative gains. The availability of structured and summarized information improves transparency and confidence in decision-making, reduces reliance on individual expertise, and enables better allocation of senior professionals to higher-value strategic activities. These aspects are particularly relevant in the context of pre-sales operations, where errors or delays in early-stage analysis can directly impact revenue generation and market positioning.
 
-Recommendations and Future Work
+### Recommendations and Future Work
 
 Based on the lessons learned and the results obtained, several recommendations can be made regarding the future evolution of the solution:
 
@@ -33,7 +33,7 @@ To ensure long-term sustainability, it is recommended that the solution be accom
 
 A structured knowledge transfer plan is also recommended as a next step. This plan should include technical walkthrough sessions, documentation repositories, and pilot usage with selected pre-sales teams, ensuring that both technical and business stakeholders fully understand the system’s capabilities and limitations. Such an approach would reduce dependency on external development and accelerate internal adoption.
 
-Acknowledgements and Final Remarks
+### Acknowledgements and Final Remarks
 
 Finally, it is important to acknowledge the institutional and human contributions that made this project possible. The author would like to express sincere gratitude to ATOS for providing the corporate environment, technical context, and access to domain expertise that enabled the development of a solution aligned with real business challenges. Special thanks are extended to the pre-sales teams, software architects, and financial professionals who contributed insights, data, and feedback throughout the project.
 
